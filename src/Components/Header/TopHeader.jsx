@@ -5,29 +5,28 @@ import { headerlogo } from "../../utils";
 
 function TopHeader() {
   return (
-    <div className="max-w-screen-xl mx-auto h-20 flex items-center justify-between px-4 lg:px-0 gap-[20px]">
-     
-     {/* ----logo */}
+    <div className="max-w-screen-xl mx-auto h-20 flex items-center justify-between px-4 lg:px-[10px] gap-[20px]">
+      {/* ----logo */}
       <div className="logo cursor-pointer">
         <img src={headerlogo} alt="Supergear Logo" className="w-44" />
       </div>
-     
-     {/* ----Search bar */}
-   
+
+      {/* ----Search bar */}
+
       <div className="flex-grow mx-4 sm:!block hidden">
-        <div className="relative">
+        <div className="flex items-center justify-between w-full p-2 pl-4 rounded-full border border-gray-300 focus-within:border-gray-500">
           <input
             type="text"
             placeholder="Search products"
-            className="w-full p-2 pl-4 rounded-full border border-gray-300 focus:outline-none focus:border-gray-500"
+            className="w-full focus:outline-none"
           />
-          <button className="absolute right-3 top-2 text-black">
-            <FaMagnifyingGlass className="size-5" />
+          <button className="text-black">
+            <FaMagnifyingGlass className="w-5 h-5" />
           </button>
         </div>
       </div>
 
-     {/* ----icons */}
+      {/* ----icons */}
       <div className="flex items-center gap-x-6 text-2xl">
         <span className="cursor-pointer hover:text-newsky">
           <FaRegUser className="size-[23px]" />

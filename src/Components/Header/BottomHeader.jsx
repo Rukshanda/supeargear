@@ -26,9 +26,9 @@ function BottomHeader() {
     setIsOpenSec((prevState) => !prevState);
   };
   return (
-    <div className="w-full bg-[black] text-[white] ">
+    <div className="w-[100%] bg-[black] text-[white]">
       <div className="mx-auto max-w-4xl flex items-center justify-between gap-5 px-4 py-2 lg:px-0">
-
+        
         {/* ------ The DropDown for categories */}
         <div className="relative inline-block text-left md:w-[20%] w-[50%]">
           <button
