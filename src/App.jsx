@@ -1,12 +1,12 @@
-import TopBar from "./Components/TopBar"
-
+import Header from "./Components/Header";
+import './index.css';
   
 
 function App() {
  
   return (
     <div>
-      <TopBar/>
+      <Header/>
     </div>
   )
 }
