@@ -1,7 +1,7 @@
 import React from 'react' 
-import TopHeader from './TopBar/TopHeader'
-import BottomHeader from './TopBar/BottomHeader'
-import CategorySlider from './TopBar/CategorySlider'
+import TopHeader from './Header/TopHeader'
+import BottomHeader from './Header/BottomHeader'
+import CategorySlider from './Header/CategorySlider'
  
 function Header() {
     return (
