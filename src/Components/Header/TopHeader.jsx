@@ -5,7 +5,7 @@ import { headerlogo } from "../../utils";
 
 function TopHeader() {
   return (
-    <div className="max-w-screen-xl mx-auto h-20 flex items-center justify-between px-4 lg:px-[10px] gap-[20px]">
+    <div className="max-w-screen-xl mx-auto h-20 flex items-center justify-between px-4 lg:px-0 gap-[20px]">
       {/* ----logo */}
       <div className="logo cursor-pointer">
         <img src={headerlogo} alt="Supergear Logo" className="w-44" />
